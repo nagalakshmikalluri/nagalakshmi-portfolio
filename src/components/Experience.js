@@ -14,7 +14,7 @@ const Experience = () => {
             </div>
             <div className="experience-info">
               <h3>Web Developer Intern</h3>
-              <h4>PINNACLE</h4>
+              <h4>Pinnacle Labs</h4>
               <p className="duration">
                 <i className="fas fa-calendar-alt"></i>
                 May 2024 – July 2024
