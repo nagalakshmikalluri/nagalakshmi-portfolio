@@ -4,6 +4,22 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
+  title: 'Expense Tracker',
+  icon: 'fas fa-wallet',
+  description: 'A smart budgeting tool to track expenses, manage monthly budgets, and visualize spending patterns.',
+  features: [
+    'Add, edit, and delete expenses with categories and dates',
+    'Budget tracking with remaining balance updates',
+    'Visual reports using Pie and Bar charts',
+    'Data persistence using localStorage',
+    'Light and Dark theme support'
+  ],
+  tech: ['React.js', 'Chart.js', 'LocalStorage', 'GitHub Pages'],
+  gradient: 'linear-gradient(135deg, #10b981 0%, #3b82f6 100%)',
+  githubLink: 'https://github.com/nagalakshmikalluri/ExpensiveTracker'
+},
+
+    {
       title: 'Job Community App',
       icon: 'fas fa-users',
       description: 'A full stack job community platform connecting students, freshers, and professionals for interview preparation and guidance.',
