@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🌟 Nagalakshmi Kalluri - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing my skills, projects, and experience as an aspiring Software Test Engineer and Full Stack Developer.
 
-## Available Scripts
+## 👩‍💻 About
 
-In the project directory, you can run:
+This portfolio highlights my journey in technology, featuring:
+- **Professional Experience** at PINNACLE as a Web Developer Intern
+- **Full Stack Projects** including Job Community App and AI Chatbot
+- **Technical Skills** in JavaScript, Python, React.js, Node.js, SQL, and more
+- **Education** B.Tech in Computer Science with AI & ML (CGPA: 8.34/10)
+- **Achievements** and certifications in coding and web development
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎨 Modern, gradient-based design with dark theme
+- 📱 Fully responsive across all devices
+- 🎭 Smooth animations and transitions
+- 🧭 Easy navigation with sticky header
+- 📬 Contact form for easy communication
+- 🎯 Clean, organized sections for better readability
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **React.js** - Frontend framework
+- **CSS3** - Styling with modern features
+- **Font Awesome** - Icons
+- **Google Fonts** - Typography (Inter & Poppins)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/nagalakshmikalluri/portfolio.git
+cd portfolio
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+This creates an optimized production build in the `build` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📧 Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Email:** nagalakshmikalluri27@gmail.com
+- **Phone:** +91-9346762067
+- **LinkedIn:** [linkedin.com/in/nagalakshmikalluri](https://linkedin.com/in/nagalakshmikalluri)
+- **GitHub:** [github.com/nagalakshmikalluri](https://github.com/nagalakshmikalluri)
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is open source and available under the MIT License.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ using React.js by Nagalakshmi Kalluri

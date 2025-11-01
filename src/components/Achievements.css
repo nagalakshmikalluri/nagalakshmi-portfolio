@@ -1,0 +1,231 @@
+.achievements {
+  background: var(--dark-bg);
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+  animation: fadeInUp 1s ease;
+}
+
+.achievement-card {
+  background: var(--light-bg);
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.achievement-glow {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  filter: blur(40px);
+  z-index: 0;
+}
+
+.achievement-card:hover .achievement-glow {
+  opacity: 0.15;
+}
+
+.achievement-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary-color);
+  box-shadow: 0 20px 50px rgba(139, 92, 246, 0.3);
+}
+
+.achievement-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.4);
+  position: relative;
+  z-index: 1;
+  animation: float 3s ease-in-out infinite;
+}
+
+.achievement-content {
+  position: relative;
+  z-index: 1;
+}
+
+.achievement-content h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.achievement-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.achievement-decoration {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  font-size: 1.2rem;
+  opacity: 0;
+  animation: sparkleFloat 3s ease-in-out infinite;
+}
+
+.sparkle-1 {
+  top: 20%;
+  right: 15%;
+  animation-delay: 0s;
+}
+
+.sparkle-2 {
+  bottom: 30%;
+  left: 10%;
+  animation-delay: 1s;
+}
+
+.sparkle-3 {
+  top: 60%;
+  right: 20%;
+  animation-delay: 2s;
+}
+
+@keyframes sparkleFloat {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1);
+  }
+}
+
+.achievement-card:hover .sparkle {
+  animation-play-state: running;
+}
+
+.highlights-section {
+  background: var(--light-bg);
+  border-radius: 20px;
+  padding: 3rem;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  animation: fadeInUp 1s ease 0.3s backwards;
+}
+
+.highlights-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.highlights-title i {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.highlights-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.highlight-badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.8rem;
+  background: var(--dark-bg);
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.highlight-badge i {
+  color: var(--accent-color);
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.highlight-badge:hover {
+  background: var(--gradient);
+  border-color: transparent;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(139, 92, 246, 0.3);
+}
+
+@media (max-width: 968px) {
+  .achievements-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement-card {
+    padding: 2rem;
+  }
+
+  .achievement-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+  }
+
+  .achievement-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .highlights-section {
+    padding: 2rem;
+  }
+
+  .highlights-title {
+    font-size: 1.6rem;
+    flex-direction: column;
+  }
+
+  .highlights-list {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-badge {
+    justify-content: center;
+  }
+}
