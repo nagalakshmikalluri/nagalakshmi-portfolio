@@ -39,7 +39,7 @@ const Hero = () => {
             <a href="https://github.com/nagalakshmikalluri" target="_blank" rel="noopener noreferrer" className="social-link">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/nagalakshmi-kalluri/" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="https://www.linkedin.com/in/nagalakshmi-kalluri" target="_blank" rel="noopener noreferrer" className="social-link">
   <i className="fab fa-linkedin"></i>
 </a>
 
