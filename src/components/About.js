@@ -49,30 +49,25 @@ const About = () => {
           <div className="about-highlights">
             <div className="highlight-item">
               <div className="highlight-icon">
+                <i className="fas fa-graduation-cap"></i>
+              </div>
+              <div className="highlight-content">
+                <h4>Education</h4>
+                <p>B.Tech in CSE (AI & ML)</p>
+                <p className="highlight-detail">CGPA: 8.34/10</p>
+              </div>
+            </div>
+
+            <div className="highlight-item">
+              <div className="highlight-icon">
                 <i className="fas fa-briefcase"></i>
               </div>
               <div className="highlight-content">
                 <h4>Experience</h4>
-                <p className="highlight-role">
-                  Full-Stack Developer Trainee — NxtWave
-                  <br />
-                  <span className="highlight-detail">Jan 2025 – Aug 2025</span>
-                </p>
-                <ul className="highlight-detail">
-                  <li>Built MERN stack projects with authentication, routing & secure REST APIs.</li>
-                  <li>Hands-on expertise in React.js, Node.js, Express.js, MongoDB, Git & Agile workflow.</li>
-                </ul>
-
-                <p className="highlight-role">
-                  Web Developer Intern — Pinnacle Labs
-                  <br />
-                  <span className="highlight-detail">Dec 2024 – Jan 2025</span>
-                </p>
-                <ul className="highlight-detail">
-                  <li>Developed responsive React.js interfaces improving UI usability.</li>
-                  <li>Integrated Node.js + Express APIs for smooth user interactions.</li>
-                  <li>Used MongoDB & GitHub for efficient data and team collaboration.</li>
-                </ul>
+                <p>Full-Stack Developer Trainee</p>
+                <p className="highlight-detail">NxtWave (Jan 2025-Aug 2025)</p>
+                <p>Web Developer Intern</p>
+                <p className="highlight-detail">Pinnacle Lab (Dec 2024-Jan 2025)</p>
               </div>
             </div>
 
@@ -89,12 +84,16 @@ const About = () => {
           </div>
 
           <div className="about-skills-quick">
+            <span className="skill-tag">Java</span>
             <span className="skill-tag">JavaScript</span>
             <span className="skill-tag">Python</span>
-            <span className="skill-tag">SQL</span>
             <span className="skill-tag">React.js</span>
             <span className="skill-tag">Node.js</span>
             <span className="skill-tag">JIRA</span>
+            <span className="skill-tag">SQL</span>
+            <span className="skill-tag">PostgreSQL</span>
+            <span className="skill-tag">SQLite</span>
+            <span className="skill-tag">MongoDB</span>
           </div>
         </div>
       </div>
