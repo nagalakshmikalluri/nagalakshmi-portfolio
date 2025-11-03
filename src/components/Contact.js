@@ -41,9 +41,7 @@ const Contact = () => {
       icon: 'fab fa-linkedin',
       title: 'LinkedIn',
       value: 'Connect with me',
-      link: 'https://www.linkedin.com/in/nagalakshmi-kalluri',
-      target: '_blank',
-      rel: 'noopener noreferrer'
+      link: 'https://www.linkedin.com/in/nagalakshmi-kalluri/'
   },
     {
       icon: 'fab fa-github',
