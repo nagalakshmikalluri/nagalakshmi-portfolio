@@ -5,8 +5,49 @@ const Experience = () => {
   return (
     <section id="experience" className="experience">
       <h2 className="section-title">Experience</h2>
-      
+
       <div className="experience-container">
+
+        {/* NxtWave — Full-Stack Developer Trainee */}
+        <div className="experience-card">
+          <div className="experience-header">
+            <div className="company-icon">
+              <i className="fas fa-university"></i>
+            </div>
+            <div className="experience-info">
+              <h3>Full-Stack Developer Trainee</h3>
+              <h4>NxtWave</h4>
+              <p className="duration">
+                <i className="fas fa-calendar-alt"></i>
+                Jan 2025 – Aug 2025
+              </p>
+            </div>
+          </div>
+
+          <div className="experience-description">
+            <ul className="experience-list">
+              <li>
+                <i className="fas fa-check-circle"></i>
+                <span>Built multiple MERN stack projects implementing authentication, routing, and secure REST APIs.</span>
+              </li>
+              <li>
+                <i className="fas fa-check-circle"></i>
+                <span>Gained strong hands-on skills in <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong>, <strong>Git</strong>, and Agile workflows.</span>
+              </li>
+            </ul>
+
+            <div className="tech-stack">
+              <span className="tech-tag">React.js</span>
+              <span className="tech-tag">Node.js</span>
+              <span className="tech-tag">Express.js</span>
+              <span className="tech-tag">MongoDB</span>
+              <span className="tech-tag">Git</span>
+              <span className="tech-tag">Agile</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Pinnacle Labs — Web Developer Intern */}
         <div className="experience-card">
           <div className="experience-header">
             <div className="company-icon">
@@ -17,7 +58,7 @@ const Experience = () => {
               <h4>Pinnacle Labs</h4>
               <p className="duration">
                 <i className="fas fa-calendar-alt"></i>
-                May 2024 – July 2024
+                Dec 2024 – Jan 2025
               </p>
             </div>
           </div>
@@ -26,24 +67,24 @@ const Experience = () => {
             <ul className="experience-list">
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Developed a responsive website tailored to client needs, enhancing user experience and addressing real-world constraints.</span>
+                <span>Developed responsive frontend pages using <strong>React.js</strong>, improving UI usability and navigation.</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Collaborated with a cross-functional team to design and implement features using <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>React.js</strong>.</span>
+                <span>Worked on <strong>Node.js</strong> + <strong>Express.js</strong> API integrations to handle data and user requests smoothly.</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Designed intuitive user interfaces with <strong>Bootstrap</strong> and managed client data efficiently using <strong>Google Sheets</strong>.</span>
+                <span>Used <strong>MongoDB</strong> and <strong>GitHub</strong> for data management and clean team collaboration.</span>
               </li>
             </ul>
 
             <div className="tech-stack">
+              <span className="tech-tag">React.js</span>
               <span className="tech-tag">Node.js</span>
               <span className="tech-tag">Express.js</span>
-              <span className="tech-tag">React.js</span>
-              <span className="tech-tag">Bootstrap</span>
-              <span className="tech-tag">Google Sheets</span>
+              <span className="tech-tag">MongoDB</span>
+              <span className="tech-tag">GitHub</span>
             </div>
           </div>
         </div>
