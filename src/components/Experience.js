@@ -8,11 +8,11 @@ const Experience = () => {
 
       <div className="experience-container">
 
-        {/* NxtWave — Full-Stack Developer Trainee */}
+        {/* ✅ New Experience Card */}
         <div className="experience-card">
           <div className="experience-header">
             <div className="company-icon">
-              <i className="fas fa-university"></i>
+              <i className="fas fa-building"></i>
             </div>
             <div className="experience-info">
               <h3>Full-Stack Developer Trainee</h3>
@@ -32,7 +32,7 @@ const Experience = () => {
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Gained strong hands-on skills in <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong>, <strong>Git</strong>, and Agile workflows.</span>
+                <span>Gained strong hands-on skills in React.js, Node.js, Express.js, MongoDB, Git, and Agile workflows.</span>
               </li>
             </ul>
 
@@ -42,12 +42,11 @@ const Experience = () => {
               <span className="tech-tag">Express.js</span>
               <span className="tech-tag">MongoDB</span>
               <span className="tech-tag">Git</span>
-              <span className="tech-tag">Agile</span>
             </div>
           </div>
         </div>
 
-        {/* Pinnacle Labs — Web Developer Intern */}
+        {/* ✅ Existing Experience Card */}
         <div className="experience-card">
           <div className="experience-header">
             <div className="company-icon">
@@ -67,15 +66,15 @@ const Experience = () => {
             <ul className="experience-list">
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Developed responsive frontend pages using <strong>React.js</strong>, improving UI usability and navigation.</span>
+                <span>Developed responsive frontend pages using React.js, improving UI usability and navigation.</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Worked on <strong>Node.js</strong> + <strong>Express.js</strong> API integrations to handle data and user requests smoothly.</span>
+                <span>Worked on Node.js + Express.js API integrations to handle data and user requests smoothly.</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Used <strong>MongoDB</strong> and <strong>GitHub</strong> for data management and clean team collaboration.</span>
+                <span>Used MongoDB and GitHub for data management and clean team collaboration.</span>
               </li>
             </ul>
 
@@ -93,9 +92,11 @@ const Experience = () => {
           <div className="timeline-line"></div>
           <div className="timeline-dot"></div>
         </div>
+
       </div>
     </section>
   );
 };
 
 export default Experience;
+
