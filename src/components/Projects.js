@@ -18,6 +18,22 @@ const Projects = () => {
   gradient: 'linear-gradient(135deg, #10b981 0%, #3b82f6 100%)',
   githubLink: 'https://github.com/nagalakshmikalluri/ExpensiveTracker'
 },
+{
+  title: 'Job Portal Application',
+  icon: 'fas fa-briefcase',
+  description: 'A full-stack Job Portal application built with Spring Boot, React.js, and MySQL, enabling faster job discovery with advanced search and filter features.',
+  features: [
+    'Advanced search and filter for jobs',
+    'Role-based access with Employer/Job Seeker using JWT authentication',
+    'Optimized REST endpoints reducing API response times by 35%',
+    'Secure login and registration with JWT tokens',
+    'Responsive UI built with React.js for seamless user experience'
+  ],
+  tech: ['Spring Boot', 'React.js', 'MySQL', 'JWT', 'REST APIs'],
+  gradient: 'linear-gradient(135deg, #f97316 0%, #ef4444 100%)',
+  githubLink: 'https://github.com/nagalakshmikalluri/JobPortalApplication'
+}
+,
 
     {
       title: 'Job Community App',
